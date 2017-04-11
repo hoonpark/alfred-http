@@ -210,6 +210,12 @@ statuses = [
     :defined_in => "http://tools.ietf.org/html/rfc7231#section-6.5.15",
   },
   {
+    :status_code => "429",
+    :reason_phrase => "Too Many Requests",
+    :one_liner => "The user has sent too many requests in a given amount of time",
+    :defined_in => "https://tools.ietf.org/html/rfc6585#section-4",
+  }
+  {
     :status_code => "500",
     :reason_phrase => "Internal Server Error",
     :one_liner => "The server encountered an unexpected condition that prevented it from fulfilling the request",
